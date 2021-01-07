@@ -10,7 +10,7 @@ So that the output vectors of each transformer encoder are concatenated, and a m
 The convolutional operation is performed with a window of size (3, hidden size of BERT which is 768 in BERT-base model) and the maximum value is generated for each transformer encoder by applying max pooling on the convolution output. By concatenating these values, a vector is generated which is given as input to a fully connected network.
 By applying softmax on the input, the classification operation is performed.
 
-![Model](https://github.com/ZeroxTM/BERT-CNN-Fine-Tuning-For-Hate-Speech-Detection-in-Online-Social-Media/blob/main/Images/BertCNN.png)
+![Model](https://github.com/ZeroxTM/BERT-CNN-Fine-Tuning-For-Hate-Speech-Detection-in-Online-Social-Media/blob/main/Images/BertCNN.png =250x250)
 
  By Alaa Grable
    
