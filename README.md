@@ -2,6 +2,7 @@
 A BERT-Based Transfer Learning Approach for Hate Speech Detection in Online Social Media
 
 Article: https://arxiv.org/pdf/1910.12574.pdf
+Dataset used: https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data
 
  By Alaa Grable
    
