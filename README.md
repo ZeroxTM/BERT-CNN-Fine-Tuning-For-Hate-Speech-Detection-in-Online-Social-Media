@@ -1,6 +1,8 @@
 # BERT-CNN-Fine-Tuning-For-Hate-Speech-Detection-in-Online-Social-Media
 A BERT-Based Transfer Learning Approach for Hate Speech Detection in Online Social Media
 
+Article: https://arxiv.org/pdf/1910.12574.pdf
+
  By Alaa Grable
    
    MIT LICENSE:
