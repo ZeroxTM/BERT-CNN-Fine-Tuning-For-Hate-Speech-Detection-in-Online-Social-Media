@@ -5,6 +5,11 @@ Article: https://arxiv.org/pdf/1910.12574.pdf
 
 Dataset used: https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data
 
+In this architecture shown in the figure, the outputs of all transformer encoders are used instead of using the output of the latest transformer encoder.
+So that the output vectors of each transformer encoder are concatenated, and a matrix is produced. 
+The convolutional operation is performed with a window of size (3, hidden size of BERT which is 768 in BERT-base model) and the maximum value is generated for each transformer encoder by applying max pooling on the convolution output. By concatenating these values, a vector is generated which is given as input to a fully connected network.
+By applying softmax on the input, the classification operation is performed.
+
  By Alaa Grable
    
    MIT LICENSE:
